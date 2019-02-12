@@ -71,6 +71,10 @@
     <origin rpy="0.0 1.57079632679 0.7" xyz="0.125 -0.115 -0.07"/>
   </joint>
   <link name="thr1">
+    <inertial>
+      <mass value="0.1"/>
+      <inertia ixx="0.001" ixy="0.0" ixz="0.0" iyy="0.001" iyz="0" izz="0.001"/>
+    </inertial>
     <buoyancy>
       <compensation>1.0</compensation>
     </buoyancy>
@@ -102,6 +106,10 @@
     <origin rpy="0.0 1.57079632679 -0.7" xyz="0.125 0.115 -0.07"/>
   </joint>
   <link name="thr2">
+    <inertial>
+      <mass value="0.1"/>
+      <inertia ixx="0.001" ixy="0.0" ixz="0.0" iyy="0.001" iyz="0" izz="0.001"/>
+    </inertial>
     <buoyancy>
       <compensation>1.0</compensation>
     </buoyancy>
@@ -133,6 +141,10 @@
     <origin rpy="0.0 1.57079632679 2.54159265359" xyz="-0.15 -0.11 -0.07"/>
   </joint>
   <link name="thr3">
+    <inertial>
+      <mass value="0.1"/>
+      <inertia ixx="0.001" ixy="0.0" ixz="0.0" iyy="0.001" iyz="0" izz="0.001"/>
+    </inertial>
     <buoyancy>
       <compensation>1.0</compensation>
     </buoyancy>
@@ -164,6 +176,10 @@
     <origin rpy="0.0 1.57079632679 3.74159265359" xyz="-0.15 0.11 -0.07"/>
   </joint>
   <link name="thr4">
+    <inertial>
+      <mass value="0.1"/>
+      <inertia ixx="0.001" ixy="0.0" ixz="0.0" iyy="0.001" iyz="0" izz="0.001"/>
+    </inertial>
     <buoyancy>
       <compensation>1.0</compensation>
     </buoyancy>
@@ -195,6 +211,10 @@
     <origin rpy="0.0 0 0.0" xyz="0.0 -0.11 0"/>
   </joint>
   <link name="thr5">
+    <inertial>
+      <mass value="0.1"/>
+      <inertia ixx="0.001" ixy="0.0" ixz="0.0" iyy="0.001" iyz="0" izz="0.001"/>
+    </inertial>
     <buoyancy>
       <compensation>1.0</compensation>
     </buoyancy>
@@ -226,6 +246,10 @@
     <origin rpy="0.0 0 0.0" xyz="0.0 0.11 0"/>
   </joint>
   <link name="thr6">
+    <inertial>
+      <mass value="0.1"/>
+      <inertia ixx="0.001" ixy="0.0" ixz="0.0" iyy="0.001" iyz="0" izz="0.001"/>
+    </inertial>
     <buoyancy>
       <compensation>1.0</compensation>
     </buoyancy>
