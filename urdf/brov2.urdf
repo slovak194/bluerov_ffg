@@ -44,11 +44,12 @@
     <!-- Origin of base_link is at the center of the cylinder  -->
     <visual>
       <geometry>
-        <mesh filename="file:///home/slovak/catkin_ws/src/bluerov_ffg/mesh/BROV2-rdx.stl"/>
+        <mesh filename="../bluerov_ffg/mesh/BROV2-rdx.stl"/>
       </geometry>
     </visual>
     <inertial>
-      <origin rpy="0 0 0" xyz="0 0 -0.1"/>
+      <!--<origin rpy="0 0 0" xyz="0 0 -0.1"/>-->
+      <origin rpy="0 0 0" xyz="0 0 0"/>
       <mass value="7.5"/>
       <inertia ixx="0.099" ixy="0.0" ixz="0.0056" iyy="0.129" iyz="0" izz="0.16"/>
     </inertial>
